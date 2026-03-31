@@ -7,12 +7,12 @@ namespace Sessao2
         public static void Executar()
         {
             Random random = new Random();
-            int numero = random.Next(100, 1000); // número entre 100 e 999
+            int numero = random.Next(1000, 10000); // número entre 100 e 999
 
             int tentativa;
-            int maxTentativas = 10;
+            int maxTentativas = 20;
             Console.Clear();
-            Console.WriteLine("Tente adivinhar o número entre 100 e 999!");
+            Console.WriteLine("Tente adivinhar o número entre 1000 e 9999!");
 
             while (true)
             {

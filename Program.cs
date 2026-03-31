@@ -6,3 +6,4 @@ using System.Threading.Tasks;
 using Sessao2;
 
 Adivinha.Executar();
+// Calculadora.Executar();
